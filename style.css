@@ -1,0 +1,38 @@
+body{
+	font-family: Arial;
+	background-color: lightskyblue;
+	display: flex;
+	align-content: center;
+	justify-items: center;
+	margin: 20px 300px;
+}
+
+.container{
+	width: 700px;
+	height: 500px;
+	background-color: lightyellow;
+	border: 2px solid black;
+	border-radius: 3.5px;
+	padding: 25px;
+}
+
+.main-heading{
+	text-align: center;
+}
+
+input[type="text"],[type="email"],[type="number"]{
+	width: 100%;
+	border: 1.5px solid black;
+	border-radius: 3px;
+	padding: 8px;
+}
+
+p>input[type="submit"]{
+	background-color: lightgreen;
+	border: none;
+	border-radius: 3px;
+	border-color: darkgreen;
+	padding: 14px 10px;
+	cursor: pointer;
+	width: 100%;	
+}
